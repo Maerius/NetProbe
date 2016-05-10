@@ -15,11 +15,8 @@ msdiff=`echo "$diffping * 1000" | bc`
 msdiff1=`echo $msdiff | sed 's:\.[^|]*::g'`
 maxdiff1=`echo $maxdiff | sed 's:\.[^|]*::g'`
 
-echo $msdiff1
-echo $maxdiff1
-
 if [[ $msdiff1 -ge $maxdiff1 ]]; then
-echo "Bigger than maxdiff variable (Max: $mdiff ms) (Current: $diffping ms)" >> $logfile
+		echo "Bigger than maxdiff variable (Max: $mdiff ms) (Current: $diffping ms)" >> $logfile
 	else 
-	echo "Less than maxdiff variable (Max: $mdiff ms) (Current: $diffping ms)" >> $logfile
+		echo "Less than maxdiff variable (Max: $mdiff ms) (Current: $diffping ms)" >> $logfile
 fi 
