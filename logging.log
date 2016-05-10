@@ -1,0 +1,207 @@
+============ Start ============
+Tue May 10 09:11:11 UTC 2016
+===============================
+setup
+request
+packet 250 bytes
+01 01 06 00 af a5 31 57 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 63 82 53 63 
+35 01 03 32 04 00 00 00 00 ff 
+op: 1
+htype: 1
+hlen: 6
+hops: 0
+xid: afa53157
+secs: 0
+flags: 0
+ciaddr: 0.0.0.0
+yiaddr: 0.0.0.0
+siaddr: 0.0.0.0
+giaddr: 0.0.0.0
+chaddr: 00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00
+sname : .
+fname : .
+option 53 DHCP message type
+	DHCP message type: 3 (DHCPREQUEST)
+option 50 Request IP address
+	Requested IP address: 0.0.0.0
+close
+============= End ==============
+ 
+========= Tue May 10 09:11:14 UTC 2016 ========
+===============================================
+It took 0 ms from server 192.168.1.1 to get IP 65.39.148.219 from domain jupiterbroadcasting.com.
+It took 0 ms from server 192.168.1.1 to get IP 172.217.20.131 from domain google.se.
+It took 57 ms from server 192.168.1.1 to get IP 192.176.234.14 from domain unt.se.
+===============================================
+ 
+Less than maxdiff variable (Max: 250 ms) (Current: 0 ms)
+========= Tue May 10 09:11:27 UTC 2016 ========
+===============================================
+
+Site:	jupiterbroadcasting.com
+Lookup time:	0.004
+Connect time:	0.005
+AppCon time:	0.000
+Redirect time:	0.000
+PreXfer time:	0.005
+StartXfer time:	0.832
+
+Total time:	0.832
+
+Site:	google.se
+Lookup time:	0.029
+Connect time:	0.029
+AppCon time:	0.000
+Redirect time:	0.000
+PreXfer time:	0.029
+StartXfer time:	0.032
+
+Total time:	0.032
+
+Site:	unt.se
+Lookup time:	0.004
+Connect time:	0.005
+AppCon time:	0.000
+Redirect time:	0.000
+PreXfer time:	0.005
+StartXfer time:	0.008
+
+Total time:	0.008
+===============================================
+ 
+=== Tue May 10 09:11:43 UTC 2016  ===
+Host: Tele2 Ping: 9.219 ms Download: 259.50 Mbit/s Upload: 149.34 Mbit/s
+======================
+ 
+============ Start ============
+Tue May 10 09:13:08 UTC 2016
+===============================
+setup
+request
+packet 250 bytes
+01 01 06 00 24 a6 31 57 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 63 82 53 63 
+35 01 03 32 04 00 00 00 00 ff 
+op: 1
+htype: 1
+hlen: 6
+hops: 0
+xid: 24a63157
+secs: 0
+flags: 0
+ciaddr: 0.0.0.0
+yiaddr: 0.0.0.0
+siaddr: 0.0.0.0
+giaddr: 0.0.0.0
+chaddr: 00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00
+sname : .
+fname : .
+option 53 DHCP message type
+	DHCP message type: 3 (DHCPREQUEST)
+option 50 Request IP address
+	Requested IP address: 0.0.0.0
+close
+============= End ==============
+ 
+========= Tue May 10 09:13:11 UTC 2016 ========
+===============================================
+It took 0 ms from server 192.168.1.1 to get IP 65.39.148.219 from domain jupiterbroadcasting.com.
+It took 17 ms from server 192.168.1.1 to get IP 172.217.21.163 from domain google.se.
+It took 0 ms from server 192.168.1.1 to get IP 192.176.234.14 from domain unt.se.
+===============================================
+ 
+Less than maxdiff variable (Max: 250 ms) (Current: 0 ms)
+========= Tue May 10 09:13:24 UTC 2016 ========
+===============================================
+
+Site:	jupiterbroadcasting.com
+Lookup time:	0.004
+Connect time:	0.005
+AppCon time:	0.000
+Redirect time:	0.000
+PreXfer time:	0.005
+StartXfer time:	1.034
+
+Total time:	1.034
+
+Site:	google.se
+Lookup time:	0.004
+Connect time:	0.005
+AppCon time:	0.000
+Redirect time:	0.000
+PreXfer time:	0.005
+StartXfer time:	0.010
+
+Total time:	0.010
+
+Site:	unt.se
+Lookup time:	0.004
+Connect time:	0.005
+AppCon time:	0.000
+Redirect time:	0.000
+PreXfer time:	0.005
+StartXfer time:	0.008
+
+Total time:	0.008
+===============================================
+ 
+=== Tue May 10 09:13:39 UTC 2016  ===
+Host: HillCom Solutions Ping: 5.137 ms Download: 289.43 Mbit/s Upload: 70.16 Mbit/s
+======================
+ 
+Less than maxdiff variable (Max: 250 ms) (Current: 0 ms)
+Less than maxdiff variable (Max: 250 ms) (Current: 0 ms)
+Less than maxdiff variable (Max: 250 ms) (Current: 494.000 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.366 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.316 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.391 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.246 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.438 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.391 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.163 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.497 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.328 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.123 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.333 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.329 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.255 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.152 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.343 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.222 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.318 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.442 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.297 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.135 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.353 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.219 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.279 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.301 ms)
+Less than maxdiff variable (Max: 0.250 ms) (Current: 0.318 ms)
+Bigger than maxdiff variable (Max: 0.250 ms) (Current: 0.604 ms)

@@ -7,7 +7,7 @@ echo "========= $(date -u) ========" >> $logfile
 echo "===============================================" >> $logfile
 for url in "${array[@]}"
 do
-dnsresult=`time dig $url +short +nostats +identify`
+dnsresult=`dig $url +short +nostats +identify`
 dnstime=`awk -v pr="$dnsresult" 'BEGIN{print pr}' | tail -1| awk '{print $6}'`
 dnsserver=`awk -v pr="$dnsresult" 'BEGIN{print pr}' | tail -1| awk '{print $4}'`
 dnsresip=`awk -v pr="$dnsresult" 'BEGIN{print pr}' | tail -1| awk '{print $1}'`
