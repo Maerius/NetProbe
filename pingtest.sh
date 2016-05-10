@@ -1,5 +1,7 @@
 #!/bin/bash
 
+logfile=logging.log
+
 server=192.168.0.2
 maxdiff="250"
 
@@ -9,7 +11,7 @@ maxping=`awk -v pr="$pingresult" 'BEGIN{print pr}' | tail -1| awk '{print $4}' |
 diffping=`printf '%.3f\n' "$(echo "$maxping - $minping" | bc)"`
 msdiff=`echo "$diffping * 1000" | bc`
 if (( $(echo "$msdiff >= $maxdiff" | bc -l) )); then
-echo "Bigger than maxdiff variable ($maxdiff ms)"
+echo "Bigger than maxdiff variable ($maxdiff ms)" >> $logfile
 	else 
-	echo "Less than maxdiff variable ($maxdiff ms)"
+	echo "Less than maxdiff variable ($maxdiff ms)" >> $logfile
 fi 

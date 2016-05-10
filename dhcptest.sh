@@ -1,6 +1,6 @@
 #!/bin/bash
 
-logfile=/scripts/dhcping.log
+logfile=logging.log
 
 log=`echo ============ Start ============ >> $logfile`
 log=`echo $(date -u) >> $logfile`

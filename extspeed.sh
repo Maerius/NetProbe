@@ -1,6 +1,9 @@
 #!/bin/bash
 
+logfile=logging.log
+
 speedtest=`./speedtest-cli --simple`
-echo "=== "`date -u` " ===" >> speedtest.log
-echo $speedtest >> speedtest.log
-echo "======================" >> speedtest.log
+echo "=== "`date -u` " ===" >> $logfile
+echo $speedtest >> $logfile
+echo "======================" >> $logfile
+echo " " >> $logfile
