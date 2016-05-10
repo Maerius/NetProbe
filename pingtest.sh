@@ -1,6 +1,7 @@
 #!/bin/bash
 
-logfile=logging.log
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+logfile=$DIR/logging.log
 
 server=192.168.1.1
 maxdiff="250"
