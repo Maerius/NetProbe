@@ -1,4 +1,6 @@
 #!/bin/bash
 
 speedtest=`./speedtest-cli --simple`
-echo $speedtest
+echo "=== "`date -u` " ===" >> speedtest.log
+echo $speedtest >> speedtest.log
+echo "======================" >> speedtest.log
