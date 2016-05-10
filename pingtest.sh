@@ -11,7 +11,7 @@ maxping=`awk -v pr="$pingresult" 'BEGIN{print pr}' | tail -1| awk '{print $4}' |
 diffping=`printf '%.3f\n' "$(echo "$maxping - $minping" | bc)"`
 msdiff=`echo "$diffping * 1000" | bc`
 if (( $(echo "$msdiff >= $maxdiff" | bc -l) )); then
-echo "Bigger than maxdiff variable ($maxdiff ms)" >> $logfile
+echo "Bigger than maxdiff variable (Max: $maxdiff ms) (Current: $msdiff ms)" >> $logfile
 	else 
-	echo "Less than maxdiff variable ($maxdiff ms)" >> $logfile
+	echo "Less than maxdiff variable (Max: $maxdiff ms) (Current: $msdiff ms)" >> $logfile
 fi 
