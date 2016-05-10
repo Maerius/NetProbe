@@ -3,7 +3,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 logfile=$DIR/logging.log
 
-server=192.168.1.1
+server=8.8.8.8
 maxdiff="250"
 mdiff="0.250"
 
