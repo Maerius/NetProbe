@@ -2,10 +2,11 @@
 
 logfile=logging.log
 
-log=`echo ============ Start ============ >> $logfile`
+echo "============ Start ============" >> $logfile
 log=`echo $(date -u) >> $logfile`
-log=`echo =============================== >> $logfile`
-dhcping=`sudo dhcping -V >> $logfile`
-log=`echo ============= End ============== >> $logfile` 
-log=`echo ' ' >> $logfile`
-#echo $dhcping
+echo "===============================" >> $logfile
+dhcping=`\time -f "Time test 1: \t%E elapsed" -o $logfile -a sudo ./dhtest -m 00:0c:29:bc:fd:f6 >> $logfile`
+dhcping=`\time -f "Time test 2: \t%E elapsed" -o $logfile -a sudo ./dhtest -m 00:0c:29:bc:fd:f7 >> $logfile`
+dhcping=`\time -f "Time test 3: \t%E elapsed" -o $logfile -a sudo ./dhtest -m 00:0c:29:bc:fd:f8 >> $logfile`
+echo "============= End ==============" >> $logfile 
+echo " " >> $logfile
