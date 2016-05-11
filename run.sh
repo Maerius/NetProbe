@@ -6,8 +6,6 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 active=`cat /sys/class/net/eth0/carrier` 
 
-echo $active
-
 if [ $active = 1 ]; then
 
 echo "Running PING  Test"

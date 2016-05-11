@@ -1,57 +1,199 @@
-Bigger than maxdiff variable (Max: 0.250 ms) (Current: 2.206 ms)
+Bigger than maxdiff variable (Max: 0.250 ms) (Current: 0.465 ms)
 ============ Start ============
-Tue May 10 14:39:50 UTC 2016
+Wed May 11 06:01:39 UTC 2016
 ===============================
-Command exited with non-zero status 2
-Time test 1: 	0:00.00 elapsed
-Command exited with non-zero status 2
-Time test 2: 	0:00.00 elapsed
-Command exited with non-zero status 2
-Time test 3: 	0:00.00 elapsed
+DHCP discover sent	 - Client MAC : 00:0c:29:bc:fd:f6
+DHCP discover sent	 - Client MAC : 00:0c:29:bc:fd:f6
+DHCP offer received	 - Offered IP : 192.168.1.92
+
+DHCP offer details
+----------------------------------------------------------
+DHCP offered IP from server - 192.168.1.92
+Next server IP(Probably TFTP server) - 0.0.0.0
+Option no - 53, option length - 1
+  OPTION data (HEX)
+    02 
+  OPTION data (ASCII)
+    
+DHCP server  - 192.168.1.1
+Lease time - 0 Days 0 Hours 10 Minutes
+Subnet mask - 255.255.255.0
+Option no - 28, option length - 4
+  OPTION data (HEX)
+    C0 A8 01 FF 
+  OPTION data (ASCII)
+    À¨ÿ
+Router/gateway - 192.168.1.1
+DNS server - 192.168.1.1
+----------------------------------------------------------
+
+DHCP request sent	 - Client MAC : 00:0c:29:bc:fd:f6
+DHCP ack received	 - Acquired IP: 192.168.1.92
+
+DHCP ack details
+----------------------------------------------------------
+DHCP offered IP from server - 192.168.1.92
+Next server IP(Probably TFTP server) - 0.0.0.0
+Option no - 53, option length - 1
+  OPTION data (HEX)
+    05 
+  OPTION data (ASCII)
+    
+DHCP server  - 192.168.1.1
+Lease time - 0 Days 0 Hours 10 Minutes
+Subnet mask - 255.255.255.0
+Option no - 28, option length - 4
+  OPTION data (HEX)
+    C0 A8 01 FF 
+  OPTION data (ASCII)
+    À¨ÿ
+Router/gateway - 192.168.1.1
+DNS server - 192.168.1.1
+----------------------------------------------------------
+
+Time test 1: 	0:05.10 elapsed
+DHCP discover sent	 - Client MAC : 00:0c:29:bc:fd:f7
+DHCP offer received	 - Offered IP : 192.168.1.93
+
+DHCP offer details
+----------------------------------------------------------
+DHCP offered IP from server - 192.168.1.93
+Next server IP(Probably TFTP server) - 0.0.0.0
+Option no - 53, option length - 1
+  OPTION data (HEX)
+    02 
+  OPTION data (ASCII)
+    
+DHCP server  - 192.168.1.1
+Lease time - 0 Days 0 Hours 10 Minutes
+Subnet mask - 255.255.255.0
+Option no - 28, option length - 4
+  OPTION data (HEX)
+    C0 A8 01 FF 
+  OPTION data (ASCII)
+    À¨ÿ
+Router/gateway - 192.168.1.1
+DNS server - 192.168.1.1
+----------------------------------------------------------
+
+DHCP request sent	 - Client MAC : 00:0c:29:bc:fd:f7
+DHCP ack received	 - Acquired IP: 192.168.1.93
+
+DHCP ack details
+----------------------------------------------------------
+DHCP offered IP from server - 192.168.1.93
+Next server IP(Probably TFTP server) - 0.0.0.0
+Option no - 53, option length - 1
+  OPTION data (HEX)
+    05 
+  OPTION data (ASCII)
+    
+DHCP server  - 192.168.1.1
+Lease time - 0 Days 0 Hours 10 Minutes
+Subnet mask - 255.255.255.0
+Option no - 28, option length - 4
+  OPTION data (HEX)
+    C0 A8 01 FF 
+  OPTION data (ASCII)
+    À¨ÿ
+Router/gateway - 192.168.1.1
+DNS server - 192.168.1.1
+----------------------------------------------------------
+
+Time test 2: 	0:01.02 elapsed
+DHCP discover sent	 - Client MAC : 00:0c:29:bc:fd:f8
+DHCP offer received	 - Offered IP : 192.168.1.94
+
+DHCP offer details
+----------------------------------------------------------
+DHCP offered IP from server - 192.168.1.94
+Next server IP(Probably TFTP server) - 0.0.0.0
+Option no - 53, option length - 1
+  OPTION data (HEX)
+    02 
+  OPTION data (ASCII)
+    
+DHCP server  - 192.168.1.1
+Lease time - 0 Days 0 Hours 10 Minutes
+Subnet mask - 255.255.255.0
+Option no - 28, option length - 4
+  OPTION data (HEX)
+    C0 A8 01 FF 
+  OPTION data (ASCII)
+    À¨ÿ
+Router/gateway - 192.168.1.1
+DNS server - 192.168.1.1
+----------------------------------------------------------
+
+DHCP request sent	 - Client MAC : 00:0c:29:bc:fd:f8
+DHCP ack received	 - Acquired IP: 192.168.1.94
+
+DHCP ack details
+----------------------------------------------------------
+DHCP offered IP from server - 192.168.1.94
+Next server IP(Probably TFTP server) - 0.0.0.0
+Option no - 53, option length - 1
+  OPTION data (HEX)
+    05 
+  OPTION data (ASCII)
+    
+DHCP server  - 192.168.1.1
+Lease time - 0 Days 0 Hours 10 Minutes
+Subnet mask - 255.255.255.0
+Option no - 28, option length - 4
+  OPTION data (HEX)
+    C0 A8 01 FF 
+  OPTION data (ASCII)
+    À¨ÿ
+Router/gateway - 192.168.1.1
+DNS server - 192.168.1.1
+----------------------------------------------------------
+
+Time test 3: 	0:01.02 elapsed
 ============= End ==============
  
-========= Tue May 10 14:39:50 UTC 2016 ========
+========= Wed May 11 06:01:46 UTC 2016 ========
 ===============================================
-It took 104 ms from server 192.168.1.1 to get IP 65.39.148.219 from domain jupiterbroadcasting.com.
-It took 27 ms from server 192.168.1.1 to get IP 172.217.21.163 from domain google.se.
-It took 16 ms from server 192.168.1.1 to get IP 192.176.234.14 from domain unt.se.
+It took 25 ms from server 192.168.1.1 to get IP 65.39.148.219 from domain jupiterbroadcasting.com.
+It took 19 ms from server 192.168.1.1 to get IP 172.217.21.163 from domain google.se.
+It took 18 ms from server 192.168.1.1 to get IP 192.176.234.14 from domain unt.se.
 ===============================================
  
-========= Tue May 10 14:39:50 UTC 2016 ========
+========= Wed May 11 06:01:46 UTC 2016 ========
 ===============================================
 
 Site:	jupiterbroadcasting.com
-Lookup time:	0.029
-Connect time:	0.029
-AppCon time:	0.000
-Redirect time:	0.000
-PreXfer time:	0.029
-StartXfer time:	1.153
-
-Total time:	1.153
-
-Site:	google.se
-Lookup time:	0.029
-Connect time:	0.029
-AppCon time:	0.000
-Redirect time:	0.000
-PreXfer time:	0.029
-StartXfer time:	0.062
-
-Total time:	0.062
-
-Site:	unt.se
 Lookup time:	0.125
 Connect time:	0.126
 AppCon time:	0.000
 Redirect time:	0.000
 PreXfer time:	0.126
-StartXfer time:	0.269
+StartXfer time:	0.667
 
-Total time:	0.269
+Total time:	0.667
+
+Site:	google.se
+Lookup time:	0.028
+Connect time:	0.029
+AppCon time:	0.000
+Redirect time:	0.000
+PreXfer time:	0.029
+StartXfer time:	0.120
+
+Total time:	0.121
+
+Site:	unt.se
+Lookup time:	0.061
+Connect time:	0.062
+AppCon time:	0.000
+Redirect time:	0.000
+PreXfer time:	0.062
+StartXfer time:	0.223
+
+Total time:	0.223
 ===============================================
  
-=== Tue May 10 14:40:04 UTC 2016  ===
-Host: SoftLayer Technologies, Inc. Ping: 18.352 ms Download: 100.37 Mbit/s Upload: 118.28 Mbit/s
+=== Wed May 11 06:02:02 UTC 2016  ===
+Host: HillCom Solutions Ping: 24.009 ms Download: 300.07 Mbit/s Upload: 128.03 Mbit/s
 ======================
  
