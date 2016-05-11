@@ -13,6 +13,7 @@ echo "Running DHCP  Test" `$DIR/pingtest.sh`
 echo "Running DNS   Test" `$DIR/dhcptest.sh`
 echo "Running SITE  Test" `$DIR/dnstest.sh`
 echo "Running SPEED Test" `$DIR/sitetest.sh`
-echo "All done!" `$DIR/extspeed.sh`
+echo "Running CDP   Test" `$DIR/extspeed.sh`
+echo "All done!" `$DIR/cdptest.sh` 
 	
 fi

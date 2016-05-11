@@ -1,4 +1,4 @@
-Requirements: bc, dig (dnsutils), curl, Python, dhtest compiled.
+Requirements: bc, dig (dnsutils), curl, Python, dhtest compiled, CDPR.
 
 dhtest can be found here: https://github.com/saravana815/dhtest
 
