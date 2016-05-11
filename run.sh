@@ -21,6 +21,7 @@ fi
 if [ $alreadyrun = 0 ]; then
 	if [ $portactive = 1 ] && [ $alreadyrun = 0 ]; then
 		echo "1" > $alrunfile
+		sleep 10;
 		echo "Running PING  Test"
 		echo "Running DHCP  Test" `$DIR/pingtest.sh`
 		echo "Running DNS   Test" `$DIR/dhcptest.sh`
