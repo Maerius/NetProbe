@@ -5,7 +5,7 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/home/pi/NetPr
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 datedir=`date '+%d-%m-%Y_%H:00'`
-#mkdir $DIR/$datedir
+mkdir $DIR/$datedir
 
 while :
 do
