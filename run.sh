@@ -16,15 +16,20 @@ if [ $portactive = 0 ]; then
 echo "0" > $alreadyrun
 fi
 
-if [ $portactive = 1 -a $alreadyrun = 0 ]; then
+if [ $alreadyrun = 0 ]; then
 
-echo "Running PING  Test"
-echo "Running DHCP  Test" `$DIR/pingtest.sh`
-echo "Running DNS   Test" `$DIR/dhcptest.sh`
-echo "Running SITE  Test" `$DIR/dnstest.sh`
-echo "Running SPEED Test" `$DIR/sitetest.sh`
-echo "Running CDP   Test" `$DIR/extspeed.sh`
-echo "All done!" `$DIR/cdptest.sh` 
+	if [ $portactive = 1 -a $alreadyrun = 0 ]; then
+
+		echo "Running PING  Test"
+		echo "Running DHCP  Test" `$DIR/pingtest.sh`
+		echo "Running DNS   Test" `$DIR/dhcptest.sh`
+		echo "Running SITE  Test" `$DIR/dnstest.sh`
+		echo "Running SPEED Test" `$DIR/sitetest.sh`
+		echo "Running CDP   Test" `$DIR/extspeed.sh`
+		echo "All done!" `$DIR/cdptest.sh` 
 	
+	fi
+else
+echo "Already run this script once."
 fi
 done
