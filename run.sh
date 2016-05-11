@@ -30,6 +30,5 @@ if [ $alreadyrun = 0 ]; then
 		echo "Running CDP   Test" `$DIR/extspeed.sh`
 		echo "All done!" `$DIR/cdptest.sh` 
 	fi
-echo "End"
 fi
 done
