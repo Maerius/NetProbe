@@ -1,7 +1,10 @@
 #!/bin/bash
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-logfile=$DIR/logging.log
+date=`date '+%d-%m-%Y_%H:%M'`
+datedir=`date '+%d-%m-%Y_%H:00'`
+mkdir $datedir
+logfile=$DIR/$datedir/logging-$date-dhcp.log
 
 echo "============ Start ============" >> $logfile
 log=`echo $(date -u) >> $logfile`
