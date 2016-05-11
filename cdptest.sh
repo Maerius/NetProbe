@@ -3,7 +3,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 logfile=$DIR/logging.log
 
-echo "==== `date -u` ===="
+echo "==== `date -u` ====" >> $logfile
 
 interface="eth0"
 
