@@ -3,7 +3,6 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 date=`date '+%d-%m-%Y_%H:%M'`
 datedir=`date '+%d-%m-%Y_%H:00'`
-mkdir $datedir
 logfile=$DIR/$datedir/logging-$date-site.log
 
 array=( jupiterbroadcasting.com google.se unt.se )
